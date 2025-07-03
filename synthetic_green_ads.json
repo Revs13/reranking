@@ -1,0 +1,292 @@
+[
+  {
+    "query": "eco-friendly detergent",
+    "documents": [
+      {
+        "text": "Imported using air freight for faster delivery.",
+        "label": 0
+      },
+      {
+        "text": "Customers love our sustainable eco-friendly packaging.",
+        "label": 1
+      },
+      {
+        "text": "Customers love our sustainable eco-friendly packaging.",
+        "label": 1
+      },
+      {
+        "text": "eco-friendly contains parabens and microbeads for deep cleaning.",
+        "label": 0
+      },
+      {
+        "text": "Imported using air freight for faster delivery.",
+        "label": 0
+      },
+      {
+        "text": "Our eco-friendly comes in a stylish plastic bottle.",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "query": "sustainable packaging",
+    "documents": [
+      {
+        "text": "New formula for stronger cleaning \u2014 now with bleach!",
+        "label": 0
+      },
+      {
+        "text": "Our sustainable comes in a stylish plastic bottle.",
+        "label": 0
+      },
+      {
+        "text": "sustainable contains parabens and microbeads for deep cleaning.",
+        "label": 0
+      },
+      {
+        "text": "Our sustainable is made with 100% biodegradable ingredients.",
+        "label": 1
+      },
+      {
+        "text": "Our sustainable is made with 100% biodegradable ingredients.",
+        "label": 1
+      },
+      {
+        "text": "New formula for stronger cleaning \u2014 now with bleach!",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "query": "biodegradable cleaning products",
+    "documents": [
+      {
+        "text": "biodegradable includes synthetic fragrances for a fresh smell.",
+        "label": 0
+      },
+      {
+        "text": "biodegradable is certified plastic-free and eco-friendly.",
+        "label": 1
+      },
+      {
+        "text": "Our biodegradable comes in a stylish plastic bottle.",
+        "label": 0
+      },
+      {
+        "text": "Our biodegradable is made with 100% biodegradable ingredients.",
+        "label": 1
+      },
+      {
+        "text": "biodegradable contains parabens and microbeads for deep cleaning.",
+        "label": 0
+      },
+      {
+        "text": "biodegradable contains parabens and microbeads for deep cleaning.",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "query": "carbon-neutral shipping",
+    "documents": [
+      {
+        "text": "Our carbon-neutral is made with 100% biodegradable ingredients.",
+        "label": 1
+      },
+      {
+        "text": "carbon-neutral is certified plastic-free and eco-friendly.",
+        "label": 1
+      },
+      {
+        "text": "Our carbon-neutral comes in a stylish plastic bottle.",
+        "label": 0
+      },
+      {
+        "text": "Imported using air freight for faster delivery.",
+        "label": 0
+      },
+      {
+        "text": "carbon-neutral contains parabens and microbeads for deep cleaning.",
+        "label": 0
+      },
+      {
+        "text": "carbon-neutral contains parabens and microbeads for deep cleaning.",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "query": "green energy alternatives",
+    "documents": [
+      {
+        "text": "Imported using air freight for faster delivery.",
+        "label": 0
+      },
+      {
+        "text": "green includes synthetic fragrances for a fresh smell.",
+        "label": 0
+      },
+      {
+        "text": "Our green is made with 100% biodegradable ingredients.",
+        "label": 1
+      },
+      {
+        "text": "Customers love our sustainable green packaging.",
+        "label": 1
+      },
+      {
+        "text": "Our green comes in a stylish plastic bottle.",
+        "label": 0
+      },
+      {
+        "text": "Our green comes in a stylish plastic bottle.",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "query": "plastic-free toothpaste",
+    "documents": [
+      {
+        "text": "plastic-free contains parabens and microbeads for deep cleaning.",
+        "label": 0
+      },
+      {
+        "text": "This plastic-free reduces your carbon footprint by 70%.",
+        "label": 1
+      },
+      {
+        "text": "Our plastic-free comes in a stylish plastic bottle.",
+        "label": 0
+      },
+      {
+        "text": "plastic-free includes synthetic fragrances for a fresh smell.",
+        "label": 0
+      },
+      {
+        "text": "plastic-free contains parabens and microbeads for deep cleaning.",
+        "label": 0
+      },
+      {
+        "text": "This plastic-free reduces your carbon footprint by 70%.",
+        "label": 1
+      }
+    ]
+  },
+  {
+    "query": "compostable phone cases",
+    "documents": [
+      {
+        "text": "compostable includes synthetic fragrances for a fresh smell.",
+        "label": 0
+      },
+      {
+        "text": "compostable is certified plastic-free and eco-friendly.",
+        "label": 1
+      },
+      {
+        "text": "Customers love our sustainable compostable packaging.",
+        "label": 1
+      },
+      {
+        "text": "Imported using air freight for faster delivery.",
+        "label": 0
+      },
+      {
+        "text": "Our compostable comes in a stylish plastic bottle.",
+        "label": 0
+      },
+      {
+        "text": "compostable contains parabens and microbeads for deep cleaning.",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "query": "ethical clothing brands",
+    "documents": [
+      {
+        "text": "ethical contains parabens and microbeads for deep cleaning.",
+        "label": 0
+      },
+      {
+        "text": "Made with compostable materials, this ethical is a zero-waste solution.",
+        "label": 1
+      },
+      {
+        "text": "Customers love our sustainable ethical packaging.",
+        "label": 1
+      },
+      {
+        "text": "Imported using air freight for faster delivery.",
+        "label": 0
+      },
+      {
+        "text": "ethical contains parabens and microbeads for deep cleaning.",
+        "label": 0
+      },
+      {
+        "text": "Our ethical comes in a stylish plastic bottle.",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "query": "organic skincare",
+    "documents": [
+      {
+        "text": "Imported using air freight for faster delivery.",
+        "label": 0
+      },
+      {
+        "text": "This organic reduces your carbon footprint by 70%.",
+        "label": 1
+      },
+      {
+        "text": "Our organic comes in a stylish plastic bottle.",
+        "label": 0
+      },
+      {
+        "text": "Imported using air freight for faster delivery.",
+        "label": 0
+      },
+      {
+        "text": "This organic reduces your carbon footprint by 70%.",
+        "label": 1
+      },
+      {
+        "text": "New formula for stronger cleaning \u2014 now with bleach!",
+        "label": 0
+      }
+    ]
+  },
+  {
+    "query": "zero waste lifestyle",
+    "documents": [
+      {
+        "text": "This zero reduces your carbon footprint by 70%.",
+        "label": 1
+      },
+      {
+        "text": "Our zero comes in a stylish plastic bottle.",
+        "label": 0
+      },
+      {
+        "text": "Customers love our sustainable zero packaging.",
+        "label": 1
+      },
+      {
+        "text": "Imported using air freight for faster delivery.",
+        "label": 0
+      },
+      {
+        "text": "zero contains parabens and microbeads for deep cleaning.",
+        "label": 0
+      },
+      {
+        "text": "zero includes synthetic fragrances for a fresh smell.",
+        "label": 0
+      }
+    ]
+  }
+]
