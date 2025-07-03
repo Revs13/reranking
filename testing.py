@@ -13,13 +13,8 @@ model = AutoModelForSequenceClassification.from_pretrained("BAAI/bge-reranker-ba
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model.to(device)
 
-with open("synthetic_green_ads.json", "r") as f:
-    data = json.load(f)
-
 # Load the passage-ranking dataset (v1.1 or v2.1)
 dataset = load_dataset("ms_marco", "v2.1", split="validation")
-
-print(dataset[0])
 
 subset = dataset.select(range(100))
 
@@ -38,24 +33,29 @@ def rerank(query, docs):
     ranked = sorted(scores, key=lambda x: x[1], reverse=True)
     return ranked
 
-#top 1 accuracy loop
-accurate = 0
+#MRR@10 
+mrr_total = 0
 
 for item in subset:
     query = item['query']
     passages = item['passages']['passage_text']
-    labels = item['passages']['is_selected']  # binary relevance
+    labels = item['passages']['is_selected']
+    passage_labels = {}
 
-    reranked = rerank(query, passages)  # This gives list of (text, score)
+    for passage, label in zip(passages, labels):
+        passage_labels[passage] = label
+    #print(passage_labels)
 
-    # Find the top ranked passage
-    top_passage = reranked[0][0]  # Get just the text
+    reranked = rerank(query, passages)
+    #print(query)
+    #print(reranked)
 
-    # Find its index in original passages
-    top_index = passages.index(top_passage)
+    reciprocal_rank = 0
+    for rank, (passage, _) in enumerate(reranked[:10], start=1):
+        if passage_labels[passage] == 1:
+            reciprocal_rank = 1 / rank
+            break  # only first relevant doc counts
+        
+    mrr_total += reciprocal_rank
 
-    if labels[top_index] == 1:
-        accurate += 1
-
-top_1_accuracy = accurate / len(subset)
-print(f"Top-1 Accuracy: {top_1_accuracy:.4f}")
+print(f"\nMRR@10: {mrr_total / len(subset):.4f}")
